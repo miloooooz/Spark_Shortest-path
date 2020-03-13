@@ -16,7 +16,7 @@ Download the ***AssigTwoz5223541.java*** and ***Hadoop-Core.jar***.
 
 cmd run `javac -cp ".:Hadoop-Core.jar" AssigTwoz5223541.java`
 
-cmd run `java -cp ".:Hadoop-Core.jar" AssigTwoz5223541 input.txt output`
+cmd run `java -cp ".:Hadoop-Core.jar" AssigTwoz5223541 starting_node input.txt output` whose starting_node is the node where you want your path starts with.
 
 The output file will be contained in the directory ***output***.
 
