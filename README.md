@@ -1,14 +1,5 @@
 # Spark_Shortest-path
 A spark program to find out the shortest path in a graph from a particular input node to every single node rest in the graph.
-## Introduction:
-
-
-Here are one example:
-
-### Input format:
-
-
-### Output format:
 
 
 ## Instruction:
