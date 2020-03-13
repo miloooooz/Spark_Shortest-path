@@ -135,7 +135,7 @@ public class AssigTwoz5223541 {
                                             StringBuilder path = new StringBuilder();
                                             ret.add(new Tuple2<>(t._1(), new Tuple2<>(path.append(t._3()).append("-").append(t._1()).toString(), cur_dist + t._2())));
                                         }else
-                                            ret.add(new Tuple2<>(t._1(), new Tuple2<>(lists._2._1, cur_dist + t._2())));
+                                            ret.add(new Tuple2<>(t._1(), new Tuple2<>(lists._2._1, cur_dist)));
                                     }
                                 }
                                 int occurred = 0;
