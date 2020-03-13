@@ -61,7 +61,7 @@ public class AssigTwoz5223541 {
         }).distinct();
 
         JavaPairRDD<String,Tuple2< String,Integer>> graph =
-                input.union(all_vertices)
+                input.union(all_vertices)       // the union here makes such format: ["N0, N1, 1", "N2, N3, 4", "N0", "N1", "N2","N3"]
                 .mapToPair((PairFunction<String, String, Tuple2< String,Integer>>)
                         s -> {
                             String[] parts = s.split(",");
