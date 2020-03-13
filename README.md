@@ -1,7 +1,33 @@
 # Spark_Shortest-path
 A spark program to find out the shortest path in a graph from a particular input node to every single node rest in the graph.
 
+### Input format:
+> N0,N1,4
+> 
+> N0,N2,3
+>
+> N1,N2,2
+>
+> N1,N3,2
+>
+> N2,N3,7
+>
+> N3,N4,2
+>
+> N4,N0,4
+>
+> N4,N1,4
+>
+> N4,N5,6
 
+### Output format:
+> N2,3,N0-N2
+>
+> N1,4,N0-N1
+>
+> N3,6,N0-N1-N3
+>
+> ...
 ## Instruction:
 Download the ***AssigTwoz5223541.java*** and ***Hadoop-Core.jar***.
 
